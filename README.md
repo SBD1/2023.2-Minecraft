@@ -1,12 +1,17 @@
 # 2023.2-Minecraft
 
-Repositório do trabalho realizado para a disciplina de Sistema de Banco de Dados 1 do curso de Engenharia de Software da Universidade de Brasília (UnB). Neste trabalho implementaremos uma versão mesclada e adaptada de Minecraft e Minecraft Dungeons.
 
 <div align="center">
 <img src="assets/Minecraft-Logo.png" aly="Minecraft-Logo" style="width: 500px">
 </div>
 
-## Contribuidores
+## 📜 Descrição do Repositório
+Repositório do trabalho realizado para a disciplina de Sistema de Banco de Dados 1 do curso de Engenharia de Software da Universidade de Brasília (UnB). Neste trabalho implementaremos uma versão mesclada e adaptada de Minecraft e Minecraft Dungeons.
+
+## 🎮 Sobre o jogo oficial
+Minecraft é um jogo de construção, aventura e sobrevivência do gênero sandbox. Um dos maiores sucessos da indústria dos games, minecraft foi um sucesso de vendas a partir desde 2011 com mais de 200 milhões de unidades vendidas.
+
+## 👨‍💻 Contribuidores
 
 <table>
   <tr>
