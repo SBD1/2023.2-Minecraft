@@ -1,7 +1,7 @@
 # 2023.2_Minecraft
 
 <div align="center">
-<img src="assets/Minecraft-Logo.png" aly="Minecraft-Logo" style="width: 180px">
+<img src="assets/Minecraft-Logo.png" aly="Minecraft-Logo" style="width: 500px">
 </div>
 
 
