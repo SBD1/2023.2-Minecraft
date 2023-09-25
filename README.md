@@ -1,10 +1,10 @@
-# 2023.2_Minecraft
+# 2023.2-Minecraft
+
+Repositório do trabalho realizado para a disciplina de Sistema de Banco de Dados 1 do curso de Engenharia de Software da Universidade de Brasília (UnB). Neste trabalho implementaremos uma versão mesclada e adaptada de Minecraft e Minecraft Dungeons.
 
 <div align="center">
 <img src="assets/Minecraft-Logo.png" aly="Minecraft-Logo" style="width: 500px">
 </div>
-
-
 
 ## Contribuidores
 
