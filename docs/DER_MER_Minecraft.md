@@ -13,6 +13,7 @@ São os objetos ou conceitos do mundo real presentes no sistema e representados 
     - **PC**
     - **NPC**
 - **Instância**
+- **Missão**
 - **Conquista**
 - **Inventário**
 - **Item**
@@ -30,7 +31,8 @@ São as características ou propriedades que descrevem as entidades.
     - **PC**: <u>idPC</u>, idPersonagem, nivel, localDeNascimento;
     - **NPC**: <u>idNPC</u>, idPersonagem, hostilidade, danoCausado;
 - **Instância**: idLocal, idNPC;
-- **Conquista**: <u>idConquista</u>, idPC, descricao;
+- **Missão**: <u>idMissao</u>, idNPC, descricao, objetivo, recompenca; 
+- **Conquista**: <u>idConquista</u>, idPC, idMissao, titulo, descricao;
 - **Inventário**: <u>idInventario</u>, idPC, tamanho;
 - **Item**: <u>idItem</u>, idInventario, tipo, durabilidade;
     - **Consumível**: <u>idItemConsumivel</u>, idItem, quantidadeUso;
@@ -62,6 +64,10 @@ Representam as associações entre entidades, descrevendo como elas estão conec
 
 - Item __possui exclusivamente__ tipos Consumível e Não consumível
 
+- PC __interage__ com NPC e __gera__ Missão 
+
+- Missão __gera__ conquista
+
 # Diagrama Entidade Relacionamento (DER)
 O Diagrama Entidade Relacionamento (DER) é a representação gráfica usada pelo Modelo Entidade Relacionamento para representar seus elementos, descrevendo a estrutura do banco de dados usando entidades, atributos e relacionamentos.
 
@@ -77,5 +83,6 @@ O Diagrama Entidade Relacionamento (DER) é a representação gráfica usada pel
 
 | Versão |  Data | Descrição | Autor |
 | :----: | :---: | --------- | ----- |
-| 1.0    | 24/09/2023 | Criação do DER | [Maria Alice](https://github.com/Maliz30) <br> [Mateus](https://github.com/MateusPy) <br> [Nicolas](https://github.com/NickGehjk) <br> [Victor Hugo](https://github.com/)  |
+| 1.0    | 24/09/2023 | Criação do DER | [Maria Alice](https://github.com/Maliz30) <br> [Mateus](https://github.com/MateusPy) <br> [Nicolas](https://github.com/NickGehjk) <br> [Victor Hugo](https://github.com/ViictorHugoo)  |
 | 1.1 | 25/09/2023 | Criação do ReadMe | [Maria Alice](https://github.com/Maliz30) <br> [Mateus](https://github.com/MateusPy)|
+| 1.2 | 01/09/2023 | Alterações no MER e DER | [Maria Alice](https://github.com/Maliz30) <br> [Victor Hugo](https://github.com/ViictorHugoo) 
