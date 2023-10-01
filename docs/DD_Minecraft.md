@@ -1,6 +1,6 @@
 # Dicionário de Dados (DD)
 
-<!-- Descrição -->
+O dicionário de dados oferece uma visão geral das principais entidades, atributos e terminologia utilizados neste projeto.
 
 ## Entidade: Dimensão
 
@@ -130,6 +130,22 @@
 |idNPC|	Chave estrangeira referenciando identificador do npc|	Int||		FK|		
 |idLocal|	Chave estrangeira referenciando identificador do local|	Int||		FK|
 
+<br><br>
+
+
+## Entidade: Missão		
+			
+#### Descrição: Armazena informações das Missões
+#### Observações: Essa tabela possui chave estrangeira da tabela NPC		
+
+<!-- Tabela-->
+| Nome     | Descrição | Tipo de Dado | Tamanho | Restrições de Domínio |
+|:--------:|:---------:|:------------:|:-------:|:---------------------:|
+|idMissao|	identificador de missão|	Int|	|	PK|
+idNPC|	chave estrangeira referenciando identificador de NPC|	Int| |		FK|			
+|descrição|	descrição da missão|	VarChar|	100|	NotNull|
+|objetivo|	objetivo da missão|	VarChar|	30|	NotNull|
+|recompensa|	recompensa da missão (item e/ou conquista)|||			NotNull|
 
 <br><br>
 
@@ -143,7 +159,9 @@
 | Nome     | Descrição | Tipo de Dado | Tamanho | Restrições de Domínio |
 |:--------:|:---------:|:------------:|:-------:|:---------------------:|
 |idConquista|	Identificador da conquista|	Int||		PK|
+|idMissao| Identificador de missão | Int || FK |
 |idPC|	Chave estrangeira referenciando identificador do personagem jogável|	Int||		FK|
+|titulo|	Nome identificador da conquista|	VarChar|	50|	Not Null|
 |descricao|	Descrição da conquista|	VarChar|	50|	Not Null|
 
 
@@ -210,3 +228,9 @@
 |resistencia|	Resistência do item não consumível|	Int||		Check|
 |dano|	Dano do item não consumível|	Int||		Check|
 |efeito|	Efeito do item não consumível|	VarChar|	20|	Not Null|	
+
+| Versão |  Data | Descrição | Autor |
+| :----: | :---: | --------- | ----- |
+| 1.0    | 24/09/2023 | Criação do Dicionario de Dados | [Nicolas](https://github.com/NickGehjk) |
+| 1.1 | 25/09/2023 | Adição do Dicionário no ReadMe | [Victor Hugo](https://github.com/ViictorHugoo) |
+| 1.2 | 01/10/2023 | Alterações no Dicionário de Dados | [Maria Alice](https://github.com/Maliz30) <br> [Victor Hugo](https://github.com/ViictorHugoo) 
