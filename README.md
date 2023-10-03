@@ -21,3 +21,11 @@ Minecraft é um jogo de construção, aventura e sobrevivência do gênero sandb
         <td align="center"><a href="https://github.com/NickGehjk"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/108106812?v=4" width="100px;" alt=""/><br /><sub><b>Nicolas Bomfim</b></sub></a><br />
   </tr>
 </table>
+
+## Entregas
+
+- Módulo 1
+  - [DER/MER]([[https://sbd1.github.io/2023.2_Fear_and_Hunger/#/./modulo_01/der](https://github.com/SBD1/2023.2-Minecraft/blob/main/docs/DER_MER_Minecraft.md)](https://github.com/SBD1/2023.2-Minecraft/blob/main/docs/DER_MER_Minecraft.md))
+  - [Modelo Relacional]([[https://sbd1.github.io/2023.2_Fear_and_Hunger/#/./modulo_01/modeloRelacional](https://github.com/SBD1/2023.2-Minecraft/blob/main/docs/MREL_Minecraft.md)](https://github.com/SBD1/2023.2-Minecraft/blob/main/docs/MREL_Minecraft.md))
+  - [Dicionário de Dados]([[https://sbd1.github.io/2023.2_Fear_and_Hunger/#/./modulo_01/dicionarioDeDados](https://github.com/SBD1/2023.2-Minecraft/blob/main/docs/DD_Minecraft.md)](https://github.com/SBD1/2023.2-Minecraft/blob/main/docs/DD_Minecraft.md)https://github.com/SBD1/2023.2-Minecraft/blob/main/docs/DD_Minecraft.md)
+
