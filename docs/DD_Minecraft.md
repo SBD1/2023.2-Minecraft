@@ -15,7 +15,7 @@ O dicionário de dados oferece uma visão geral das principais entidades, atribu
 
 <br><br>
 
-## Entidade: Viagem
+## Viagem
 
 #### Descrição: Armazena informações de viagem entre dimensões
 #### Observações: Essa tabela possui chaves estrangeiras da tabela Dimensão
